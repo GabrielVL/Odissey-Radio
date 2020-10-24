@@ -139,7 +139,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="FileReader.cpp" />
     <ClCompile Include="Odissey-Radio.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\gvl19\Downloads\fma_metadata\raw_genres.csv" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

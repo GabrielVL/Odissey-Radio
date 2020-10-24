@@ -13,10 +13,24 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\Reproductor">
+      <UniqueIdentifier>{122ea896-e7de-4b3a-8c52-4c6d911c6d43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Libreria">
+      <UniqueIdentifier>{a322bff8-6398-477f-9600-4698f857dac3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\gvl19\Downloads\fma_metadata\raw_genres.csv">
+      <Filter>Resource Files</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Odissey-Radio.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Reproductor</Filter>
+    </ClCompile>
+    <ClCompile Include="FileReader.cpp">
+      <Filter>Source Files\Libreria</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
