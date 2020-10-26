@@ -34,8 +34,8 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="mp3player.h">
-      <Filter>Resource Files</Filter>
+    <ClInclude Include="wavplayer.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
