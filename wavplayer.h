@@ -11,26 +11,20 @@ using namespace std;
 
 class WavPlayer {
 private:
-    string hola = "manowar.wav";
-    LPCTSTR adios = L"manowar.wav";
+    wstring default_sound = L"manowar.wav";
+
 
 public:
 
     WavPlayer() {
-
-
+        
+        
     }
 
-    int playMusic() {
+    void playMusic(wstring cancion) {
 
-        if (PlaySound(adios, NULL, SND_FILENAME | SND_ASYNC)) {
-            int test = 0;
-            cin >> test;
-            return 0;
-        }
-
-
-        return 1;
+        LPCTSTR wcancion = cancion.c_str();
+        PlaySound(wcancion, NULL, SND_FILENAME | SND_ASYNC);
 
     }
 

@@ -3,6 +3,8 @@
 
 int main() {
     
+    WavPlayer wp;
+
 
     return 0;
 }
